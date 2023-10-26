@@ -315,11 +315,14 @@ left: 319px;
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-/* Adicione estilos */
+  display: flex;
+  justify-content: center;
 }
 
 .step {
-/* Adicione estilos */
+flex-basis: 220px;
+flex-direction:column;
+gap: 40px;
 }
 
 .step__title {
@@ -327,8 +330,6 @@ left: 319px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  display: flex;
-  align-items: center;
 }
 
 .step__icon {
@@ -346,6 +347,8 @@ left: 319px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  gap: 120px;
 }
 
 .about__title {
@@ -353,7 +356,9 @@ left: 319px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  position: relative;
+  display: flex;
+  max-width: 154px;
 }
 
 .about__content {
@@ -361,13 +366,26 @@ left: 319px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.about__paragraph{
+  display: flex;
+  gap: 32px;
 }
 
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
   height: 495px;
-  border-radius: 50%;
+  border-radius: 50%; 
+  display: flex;
+  position: absolute;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
@@ -387,7 +405,6 @@ left: 319px;
 }
 
 .footer__list {
-  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
