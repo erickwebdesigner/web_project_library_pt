@@ -18,24 +18,24 @@
           alt="Triple Peaks Library Logo"
           class="nav__logo">
 
-    <ul class="nav__links">
-          <li>
-            <a class="nav__link">Escolha das equipes</a>
-          </li>
-          <li>
-            <a class="nav__link">Eventos</a>
-          </li>
-          <li>
-            <a class="nav__link">Seja um membro</a>
-          </li>
-          <li>
-            <a class="nav__link">Sobre</a>
-          </li>
-          <li>
-            <a class="nav__link">Contatos</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff__link">Escolha das equipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#events__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#membership__link">Seja um membro</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about__link">Sobre</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
       
       <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
       <p class="header__description">
@@ -48,13 +48,13 @@
         class="header__image"/>
       
         <div class="header__footer">
-        <a class="header__link">Sobre a biblioteca &darr;</a>
+        <a class="header__link" href="#">Sobre a biblioteca &darr;</a>
         <p class="header__address"> 200 Success Avenue, The Town of Triple Peaks</p>
         </div>
       </header>
     </div>
-    <section class="staff">
-      <h2 class="staff__title">Escolhas da Equipe</h2>
+    <section class="staff" id="staff__link">
+      <h2 class="staff__title">Escolhas das Equipes</h2>
         <p class="staff__subtitle">Que nossos leitores adoram</p>
         <ul class="staff__card">
           <li class="card">
@@ -113,7 +113,7 @@
 
     <div class="page">
       <main class="content">
-        <section class="events">
+        <section class="events" id="events__link">
 
           <section class="events__content">
             <h2 class="events__heading">Proximos eventos:</h2>
@@ -172,7 +172,7 @@
           </section>
         </section>
 
-      <section class="membership">
+      <section class="membership" id="membership__link">
         <h2 class="membership__title">Ser membro da biblioteca é fácil!</h2>
         <ul class="membership__steps">
           <li class="step">
@@ -227,7 +227,7 @@
         </ul>
       </section>
 
-      <section class="about">
+      <section class="about" id="about__link">
         <div class="about__circle"></div>
         <h2 class="about__title">Sobre a biblioteca</h2>
         <div class="about__content">
@@ -244,10 +244,38 @@
         </section> </main>
    </div>
   
-  <div class="page">
-    <footer class="footer">
+     <div class="page">
+      <footer class="footer" id="footer__link">  
+        <section class="footer__columns">  
+        <div class="footer__logo">
+          <img src="images/logo-white.svg" alt="Triple Peaks Library Logo"></div> 
+          <div class="footer__copyright">© 2022 Erick da Silva André</div>  
+        </section>
+
+        
+      <section class="footer__column footer__column_content_hours">
+          <ul class= "footer__column-heading footer__list">           
+            <h4>Horário de Funcionamento</h4>
+            <li>
+              <p class="footer__list-item"> Dias úteis: 09h - 20h</p>
+              <p class="footer__list-item">finais de Semana: 10h às 18h</p>
+            </li>
+           </ul>
+      </section>
+
+      <section class="footer__column footer__column_content_social">
+       <ul class="footer__column-heading footer__list">
+          <h4>Redes Sociais</h4>
+          <li>
+           <nav class=" footer__list-item footer__column-link"> <img class="footer__social-icon" src="images/facebook_white.svg" alt="icon facebook"><a href="#">facebook</a></nav>
+          <nav class="footer__list-item footer__column-link"> <img class="footer__social-icon"  src="images/instagram_white.svg" alt="icon Instagram">
+          <a href="#instagram__link" id="instagram__link">Instagram</a>
+           </nav>
+        </li>
+       </ul>
+     </div>
+       </section>  
     </footer>
   </div>
   </body>
   </html>
-
