@@ -147,7 +147,7 @@ gap: 40px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  color:#c1c1c1;
+  color:#000000;
   }
 
 .card__title {
@@ -159,15 +159,18 @@ gap: 40px;
 }
 
 .card__text {
+  display: flex;
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
 }
 
 .card__footer {
-  margin: 0;
+  display: flex;
+  margin-bottom: auto;
   font-size: 14px;
   line-height: 20px;
+  color:#c1c1c1;
 }
 
 .events {
@@ -310,7 +313,7 @@ left: 319px;
 
 .membership {
   padding: 100px 0 140px;
-  background-color: #c1c1c1;
+  background-color: #f2f2f2;
   
   
 }
@@ -435,7 +438,7 @@ color: black;
   margin-right: 80px;
 }
 
-.footer__column_content_social:hover {
+.footer__column_content_social {
   display: flex;
   font-size:16px;
   line-height:20px;
@@ -480,6 +483,9 @@ flex-direction: column;
   display: flex;
 }
 
+.footer__column-link:hover{
+  color: #ffffff;
+}
 
 .footer__social-icon {
 display: flex;
@@ -488,6 +494,7 @@ min-height: 16px;
 }
 
 .footer__copyright {
+  display: flex;
   color: #fff;
   font-size:16px;
   line-height:20px;
